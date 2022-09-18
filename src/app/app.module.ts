@@ -2,17 +2,19 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { SummaryComponent } from './summary/summary.component';
+import { SummaryCardComponent } from './summary-card/summary-card.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    SummaryComponent,
+    SummaryCardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [SummaryComponent]
 })
 export class AppModule { }
