@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import * as json_data from 'src/assets/data.json';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-summary',
   templateUrl: './summary.component.html',
   styleUrls: ['./summary.component.scss']
 })

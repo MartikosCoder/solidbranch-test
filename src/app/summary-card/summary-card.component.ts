@@ -11,7 +11,8 @@ export class SummaryCardComponent implements OnInit {
   @Input() title!: String;
   @Input() tab!: Number;  
 
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit(): void {
   }
